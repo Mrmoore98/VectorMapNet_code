@@ -1,2 +1,2 @@
 # VectorMapNet_code
-This is the offical code base of VectorMapNet
+This is the offical codebase of VectorMapNet
