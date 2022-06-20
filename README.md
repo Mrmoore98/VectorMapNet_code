@@ -13,3 +13,15 @@ Autonomous driving systems require a good understanding of surrounding environme
 
 **Questions/Requests:** 
 Please file an [issue](https://github.com/Tsinghua-MARS-Lab/vecmapnet/issues) or send an email to [Yicheng](moooooore66@gmail.com).
+
+
+### Citation
+If you found this paper or codebase useful, please cite our paper:
+```
+@article{liu2022vectormapnet,
+    title={VectorMapNet: End-to-end Vectorized HD Map Learning},
+    author={Liu, Yicheng and Wang, Yue and Wang, Yilun and Zhao, Hang},
+    journal={arXiv preprint arXiv:2206.08920},
+    year={2022}
+    }
+```
