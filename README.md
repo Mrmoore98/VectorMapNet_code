@@ -31,9 +31,7 @@ If you found this paper or codebase useful, please cite our paper:
 # Run VectorMapNet
 
 ## Note
-We are still working on refining this repo. Currently, we only release the inference code of VectorMapNet.
 
-The training pipeline will be released in next week. 
 
 ## 0. Environment
 
@@ -65,6 +63,20 @@ python tools/data_converter/nuscenes_converter.py --data-root your/dataset/nuSce
 | Method       | Modality    | Config | Checkpoint |
 |--------------|-------------|--------|------------|
 | VectorMapNet | Camera only | [config](configs/vectormapnet.py) | [model link](https://drive.google.com/file/d/1ccrlZ2HrFfpBB27kC9DkwCYWlTUpgmin/view?usp=sharing)      |
+
+
+### Train VectorMapNet
+
+In single GPU
+```
+python tools/train.py configs/vectormapnet.py
+```
+
+For multi GPUs
+```
+bash tools/dist_train.sh configs/vectormapnet.py $num_gpu
+```
+
 
 ### Do Evaluation
 
