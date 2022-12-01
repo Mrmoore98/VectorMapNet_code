@@ -305,13 +305,13 @@ data = dict(
 
 optimizer = dict(
     type='AdamW',
-    lr=2e-4,
+    lr=1e-3,
     paramwise_cfg=dict(
     custom_keys={
-        # 'img_backbone': dict(lr_mult=0.1),
+        'backbone': dict(lr_mult=0.1),
     }),
     weight_decay=0.01)
-optimizer_config = dict(grad_clip=dict(max_norm=1., norm_type=2))
+optimizer_config = dict(grad_clip=dict(max_norm=.5, norm_type=2))
 
 
 # learning policy
