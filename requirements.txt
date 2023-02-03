@@ -1,5 +1,6 @@
 efficientnet_pytorch
 # torch_scatter==2.0.6
 similaritymeasures==0.5.0
+shapely==1.8
 av2
 ipython
