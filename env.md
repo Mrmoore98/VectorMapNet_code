@@ -30,7 +30,7 @@ pip install mmsegmentation==0.14.1
 
 ### Install mmdetection3d
 
-Currently we are usingmmdetection3d of  version 0.17.x . To install mmdet3d, please first download the releases of 0.17.x from <https://github.com/open-mmlab/mmdetection3d/releases>, unzip the code and rename the folder to `mmdetection3d`. Then run
+Currently we are using mmdetection3d of  version 0.17.x . To install mmdet3d, please first download the releases of 0.17.x from <https://github.com/open-mmlab/mmdetection3d/releases>, unzip the code and rename the folder to `mmdetection3d`. Then run
 
 ```
 wget https://github.com/open-mmlab/mmdetection3d/archive/refs/tags/v0.17.3.zip
